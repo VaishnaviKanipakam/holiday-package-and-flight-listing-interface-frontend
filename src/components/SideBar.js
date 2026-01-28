@@ -22,7 +22,7 @@ const SideBar = () => {
           <HomeIcon /> <p className="ml-1">Dashboard</p>
         </li>
       </Link>
-      <Link to="/leads" className="no-underline">
+      <Link className="no-underline">
         <li className="text-black list-none font-semibold text-[17px] flex items-center mb-5 ml-3">
           <FilterAltIcon /> <p className="ml-1">Leads</p>
         </li>
