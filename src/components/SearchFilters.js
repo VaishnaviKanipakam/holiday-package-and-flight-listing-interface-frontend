@@ -129,8 +129,8 @@ const SearchFilters = () => {
               width: "30px",
               height: "30px",
               marginLeft: "10px",
-              fontSize: "17px",
-              fontWeight: "bold",
+              fontSize: "15px",
+              fontWeight: "500",
             }}
           >
             3 <StarBorderOutlinedIcon sx={{ fontSize: "20px" }} />
@@ -144,8 +144,8 @@ const SearchFilters = () => {
               width: "30px",
               height: "30px",
               marginLeft: "10px",
-              fontSize: "17px",
-              fontWeight: "bold",
+              fontSize: "15px",
+              fontWeight: "500",
             }}
           >
             4 <StarBorderOutlinedIcon sx={{ fontSize: "20px" }} />
@@ -159,8 +159,8 @@ const SearchFilters = () => {
               width: "30px",
               height: "30px",
               marginLeft: "10px",
-              fontSize: "17px",
-              fontWeight: "bold",
+              fontSize: "15px",
+              fontWeight: "500",
             }}
           >
             5 <StarBorderOutlinedIcon sx={{ fontSize: "20px" }} />
