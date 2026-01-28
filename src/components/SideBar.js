@@ -17,12 +17,12 @@ import { Link } from "react-router-dom";
 const SideBar = () => {
   return (
     <div className="h-full w-full p-4">
-      <Link className="no-underline">
+      <Link to="/" className="no-underline">
         <li className="text-black list-none font-semibold text-[17px] flex items-center mb-5 ml-3">
           <HomeIcon /> <p className="ml-1">Dashboard</p>
         </li>
       </Link>
-      <Link className="no-underline">
+      <Link to="/leads" className="no-underline">
         <li className="text-black list-none font-semibold text-[17px] flex items-center mb-5 ml-3">
           <FilterAltIcon /> <p className="ml-1">Leads</p>
         </li>

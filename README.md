@@ -1,70 +1,120 @@
-# Getting Started with Create React App
+## Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Holiday Package & Flight Listing Interface built using ReactJS.
+It replicates a real-world travel booking dashboard where users can search holiday packages, view flight options, and compare fares.
 
-## Available Scripts
+## The focus of this assignment is:
 
-In the project directory, you can run:
+- Translating UI design into code
+- Component-based architecture
+- Clean layout and styling
+- Handling mock API data realistically
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ReactJS
+- HTML5
+- CSS3
+- Tailwind CSS
+- Material UI (MUI)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Sidebar Navigation
+The sidebar represents a real travel admin dashboard and includes:
 
-### `npm test`
+- Dashboard
+- Leads
+- Itineraries
+- Bookings
+- Payments
+- Reports
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Additional Sections:
+- User Control (Users, Roles & Permissions)
+- Participants (Customers, Agents, Vendors)
+- Miscellaneous (Offers, Settings, Support)
 
-### `npm run build`
+## Header & Package Tabs
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Holiday Tabs
+- Indian Holidays
+- International Holidays
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Package Tabs
+- Package with Flights
+- Package without Flights
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Active tab styling follows the provided design reference.
 
-### `npm run eject`
+## Search & Filter Section
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Users can filter packages using:
+- Destination city
+- Travel start date
+- Passenger count
+- Hotel rating (3★, 4★, 5★)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A Search button triggers flight/package results.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Flight Data (Mock API)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Flight data is mocked using static JSON
+- This simulates a real backend API response
+- Each flight includes:
+    - Airline name & logo
+    - Flight number
+    - Route
+    - Timings
+    - Duration
+    - Fare
+    - Baggage
+    - Stops
 
-## Learn More
+In production, this can be easily replaced with real APIs such as Amadeus or AviationStack.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Fare Summary Section
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Displays:
+- Selected departure flight
+- Selected return flight
+- Individual fares
+- Total round-trip fare for passengers
 
-### Code Splitting
+## Styling & UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Tailwind CSS for layout and spacing
+- Material UI for buttons, icons, and avatars
+- Card-based UI for flight listings
+- Smooth hover and load animations
+- Clean visual hierarchy
 
-### Analyzing the Bundle Size
+## Animations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Hover lift and shadow on cards
+- Fade-in animation for flight listings
+- GPU-friendly animations using transform and opacity
 
-### Making a Progressive Web App
+## How to Run the Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Clone the repository
 
-### Advanced Configuration
+Install dependencies
+- npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Start the development server
+- npm start
 
-### Deployment
+Open in browser
+- http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Key Design Decisions
 
-### `npm run build` fails to minify
+- Used mock data to focus on UI and UX
+- Followed real travel booking workflows
+- Designed components to be API-ready
+- Ensured clean separation of concerns
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Notes
+
+- This project focuses on UI implementation
+- No payment gateway or real booking flow is included
+- Flight prices and schedules are for demonstration only

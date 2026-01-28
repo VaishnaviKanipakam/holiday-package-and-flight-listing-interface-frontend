@@ -4,7 +4,6 @@ const departureFlights = [
     {
     id: 1,
     Airline: "Indigo",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Air_India_Logo.svg",
     FlightNo: "6E-234",
     From: "DEL",
     To: "BOM",
@@ -18,7 +17,6 @@ const departureFlights = [
   {
     id: 2,
     Airline: "Air India",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Air_India_Logo.svg",
     FlightNo: "AI-101",
     From: "DEL",
     To: "BOM",
@@ -32,7 +30,6 @@ const departureFlights = [
   {
     id: 3,
     Airline: "Vistara",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Vistara_Logo.svg",
     FlightNo: "UK-945",
     From: "DEL",
     To: "BOM",
@@ -46,7 +43,6 @@ const departureFlights = [
   {
     id: 4,
     Airline: "SpiceJet",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/4/4b/SpiceJet_logo.svg",
     FlightNo: "SG-456",
     From: "DEL",
     To: "BOM",
@@ -60,7 +56,6 @@ const departureFlights = [
   {
     id: 5,
     Airline: "Akasa Air",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Akasa_Air_logo.svg",
     FlightNo: "QP-112",
     From: "DEL",
     To: "BOM",
@@ -74,7 +69,6 @@ const departureFlights = [
   {
     id: 6,
     Airline: "Indigo",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/6/69/IndiGo_Airlines_logo.svg",
     FlightNo: "6E-782",
     From: "DEL",
     To: "BOM",
@@ -88,7 +82,6 @@ const departureFlights = [
   {
     id: 7,
     Airline: "Air India",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Air_India_Logo.svg",
     FlightNo: "AI-665",
     From: "DEL",
     To: "BOM",
@@ -102,7 +95,6 @@ const departureFlights = [
   {
     id: 8,
     Airline: "Vistara",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Vistara_Logo.svg",
     FlightNo: "UK-981",
     From: "DEL",
     To: "BOM",
@@ -116,7 +108,6 @@ const departureFlights = [
   {
     id: 9,
     Airline: "SpiceJet",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/4/4b/SpiceJet_logo.svg",
     FlightNo: "SG-889",
     From: "DEL",
     To: "BOM",
@@ -130,7 +121,6 @@ const departureFlights = [
   {
     id: 10,
     Airline: "Akasa Air",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Akasa_Air_logo.svg",
     FlightNo: "QP-309",
     From: "DEL",
     To: "BOM",
@@ -145,7 +135,6 @@ const departureFlights = [
   {
     id: 11,
     Airline: "Indigo",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/6/69/IndiGo_Airlines_logo.svg",
     FlightNo: "6E-543",
     From: "BOM",
     To: "DEL",
@@ -159,7 +148,6 @@ const departureFlights = [
   {
     id: 12,
     Airline: "Air India",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Air_India_Logo.svg",
     FlightNo: "AI-202",
     From: "BOM",
     To: "DEL",
@@ -173,7 +161,6 @@ const departureFlights = [
   {
     id: 13,
     Airline: "Vistara",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Vistara_Logo.svg",
     FlightNo: "UK-876",
     From: "BOM",
     To: "DEL",
@@ -187,7 +174,6 @@ const departureFlights = [
   {
     id: 14,
     Airline: "SpiceJet",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/4/4b/SpiceJet_logo.svg",
     FlightNo: "SG-332",
     From: "BOM",
     To: "DEL",
@@ -201,7 +187,6 @@ const departureFlights = [
   {
     id: 15,
     Airline: "Akasa Air",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Akasa_Air_logo.svg",
     FlightNo: "QP-908",
     From: "BOM",
     To: "DEL",
@@ -219,7 +204,6 @@ const returnFlights = [
    {
     id: 16,
     Airline: "Indigo",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/6/69/IndiGo_Airlines_logo.svg",
     FlightNo: "6E-321",
     From: "BLR",
     To: "DEL",
@@ -233,7 +217,6 @@ const returnFlights = [
   {
     id: 17,
     Airline: "Air India",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Air_India_Logo.svg",
     FlightNo: "AI-990",
     From: "BLR",
     To: "DEL",
@@ -247,7 +230,6 @@ const returnFlights = [
   {
     id: 18,
     Airline: "Vistara",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Vistara_Logo.svg",
     FlightNo: "UK-432",
     From: "BLR",
     To: "DEL",
@@ -261,7 +243,6 @@ const returnFlights = [
   {
     id: 19,
     Airline: "SpiceJet",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/4/4b/SpiceJet_logo.svg",
     FlightNo: "SG-765",
     From: "BLR",
     To: "DEL",
@@ -275,7 +256,6 @@ const returnFlights = [
   {
     id: 20,
     Airline: "Akasa Air",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Akasa_Air_logo.svg",
     FlightNo: "QP-600",
     From: "BLR",
     To: "DEL",
@@ -290,7 +270,6 @@ const returnFlights = [
   {
     id: 21,
     Airline: "Indigo",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/6/69/IndiGo_Airlines_logo.svg",
     FlightNo: "6E-119",
     From: "DEL",
     To: "BLR",
@@ -304,7 +283,6 @@ const returnFlights = [
   {
     id: 22,
     Airline: "Air India",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Air_India_Logo.svg",
     FlightNo: "AI-556",
     From: "DEL",
     To: "BLR",
@@ -318,7 +296,6 @@ const returnFlights = [
   {
     id: 23,
     Airline: "Vistara",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Vistara_Logo.svg",
     FlightNo: "UK-777",
     From: "DEL",
     To: "BLR",
@@ -332,7 +309,6 @@ const returnFlights = [
   {
     id: 24,
     Airline: "SpiceJet",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/4/4b/SpiceJet_logo.svg",
     FlightNo: "SG-888",
     From: "DEL",
     To: "BLR",
@@ -346,7 +322,6 @@ const returnFlights = [
   {
     id: 25,
     Airline: "Akasa Air",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Akasa_Air_logo.svg",
     FlightNo: "QP-901",
     From: "DEL",
     To: "BLR",
@@ -361,7 +336,6 @@ const returnFlights = [
   {
     id: 26,
     Airline: "Indigo",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/6/69/IndiGo_Airlines_logo.svg",
     FlightNo: "6E-870",
     From: "DEL",
     To: "HYD",
@@ -375,7 +349,6 @@ const returnFlights = [
   {
     id: 27,
     Airline: "Air India",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Air_India_Logo.svg",
     FlightNo: "AI-432",
     From: "DEL",
     To: "HYD",
@@ -389,7 +362,6 @@ const returnFlights = [
   {
     id: 28,
     Airline: "Vistara",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Vistara_Logo.svg",
     FlightNo: "UK-558",
     From: "DEL",
     To: "HYD",
@@ -403,7 +375,6 @@ const returnFlights = [
   {
     id: 29,
     Airline: "SpiceJet",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/4/4b/SpiceJet_logo.svg",
     FlightNo: "SG-902",
     From: "DEL",
     To: "HYD",
@@ -417,7 +388,6 @@ const returnFlights = [
   {
     id: 30,
     Airline: "Akasa Air",
-    AirlineLogo: "https://upload.wikimedia.org/wikipedia/commons/f/fb/Akasa_Air_logo.svg",
     FlightNo: "QP-778",
     From: "DEL",
     To: "HYD",
@@ -432,7 +402,7 @@ const returnFlights = [
 
 const FlightCard = () => {
   return (
-    <div className="w-full h-full box-border grid grid-cols-2 gap-5 bg-[#eeeef7] p-[30px]">
+    <div className="w-full h-full box-border grid grid-cols-2 gap-5">
       <div>
         <h1 className="text-black font-semibold text-[23px]">
           Departure Flights

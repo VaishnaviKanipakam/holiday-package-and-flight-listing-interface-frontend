@@ -12,7 +12,6 @@ const FlightCardItem = props => {
     <li className='bg-white flex flex-col items-start justify-start p-4 h-fit shadow-lg rounded-xl mb-3 mt-3 box-border w-full hover:bg-[#F0FFFF] transition transform hover:scale-105 duration-300'>
       <div className='flex flex-row items-center justify-between box-border w-full'>
         <div className='flex flex-row items-center'>
-          {/* <img src={<AirlineLogo />} alt={Airline} className='w-[40px] h-[40px]'/> */}
           <AirplanemodeActiveOutlinedIcon sx={{fontSize: "30px", color: "#616161"}} />
           <div className='flex flex-col ml-4'>
             <h4 className='text-black text-[20px] font-semibold'>{Airline}</h4>
