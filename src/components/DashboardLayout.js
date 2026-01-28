@@ -24,7 +24,7 @@ const DashboardLayout = ({children}) => {
         <SideBar />
       </div>
 
-      <div className="bg-white box-border ml-[17vw] mt-[80px] p-[50px] h-[calc(100vh-80px)] overflow-y-auto no-scrollbar">
+      <div className="bg-white box-border ml-[17vw] mt-[80px] p-[50px] min-h-screen overflow-y-auto no-scrollbar">
         {children}
       </div>
     </div>
