@@ -2,7 +2,7 @@ import SwapHorizIcon from '@mui/icons-material/SwapHoriz';
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 import PlaceOutlinedIcon from '@mui/icons-material/PlaceOutlined';
 import RuleOutlinedIcon from '@mui/icons-material/RuleOutlined';
-import FlightTakeoffOutlinedIcon from '@mui/icons-material/FlightTakeoffOutlined';
+import AirplanemodeActiveOutlinedIcon from '@mui/icons-material/AirplanemodeActiveOutlined';
 
 
 const FlightCardItem = props => {
@@ -13,10 +13,11 @@ const FlightCardItem = props => {
       <div className='flex flex-row items-center justify-between box-border w-full'>
         <div className='flex flex-row items-center'>
           {/* <img src={<AirlineLogo />} alt={Airline} className='w-[40px] h-[40px]'/> */}
-          <FlightTakeoffOutlinedIcon />
-          <div className='flex flex-col'>
+          <AirplanemodeActiveOutlinedIcon sx={{fontSize: "30px", color: "#616161"}} />
+          <div className='flex flex-col ml-4'>
             <h4 className='text-black text-[20px] font-semibold'>{Airline}</h4>
             <p className='text-[#616161] font-medium text-[15px]'>{FlightNo}</p>
+          </div>
           </div>
           <div className='flex flex-row items-center'>
             <div className='flex flex-col'>
@@ -33,7 +34,7 @@ const FlightCardItem = props => {
             </div>
             
           </div>
-        </div>
+        
       </div>
       <hr className='border-[#b2b1b1] border-[1px] w-full mt-3 mb-3'/>
       <h6 className='text-black font-medium text-[16px]'>{Fare}</h6>
